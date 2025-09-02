@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melhores Livros de Tecnologia de 2025</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a1a2e">
+</head>
+<body>
+  
+  <header>
+    <div class="logo">Melhores Livros 2025</div>
+    <nav class="nav" id="menu">
+      <a href="#">Início</a>
+      <a href="#">Destaques</a>
+      <a href="#">Categorias</a>
+      <a href="#">Contato</a>
+    </nav>
+    <button class="hamburger" id="btn-menu">☰</button>
+  </header>
+
+  <section class="banner">
+    <h1>Descubra os melhores livros de Tecnologia de 2025</h1>
+  </section>
+
+  <main class="grid-container">
+    <article class="card">
+      <img src="img/livro1.jpg" alt="Livro 1">
+      <h2>Código Limpo: Habilidades Práticas do Agile Software</h2>
+      <p>Autor: Robert C. Martin</p>
+    </article>
+    <article class="card">
+      <img src="img/livro2.jpeg" alt="Livro 2">
+      <h2>Trabalho Eficaz com Código Legado</h2>
+      <p>Autor: Michael C. Feathers</p>
+    </article>
+    <article class="card">
+      <img src="img/livro3.jpeg" alt="Livro 3">
+      <h2>Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos</h2>
+      <p>Autores: Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</p>
+    </article>
+    <article class="card">
+      <img src="img/livro4.jpg" alt="Livro 4">
+      <h2>Refatoração: Aperfeiçoando o Design de Códigos Existentes</h2>
+      <p>Autor: Martin Fowler</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 - Desenvolvido por Ana Carolina Pereira Martins | Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js")
+        .then(() => console.log("Service Worker registrado com sucesso!"))
+        .catch(err => console.log("Erro no SW:", err));
+    }
+  </script>
+</body>
+</html>

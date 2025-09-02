@@ -1,0 +1,9 @@
+{
+  "name": "Melhores Livros de Tecnologia de 2025",
+  "short_name": "Livros2025",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait"
+}
